@@ -1,0 +1,6 @@
+.container{
+	background-image: url(./image/background1.png) center center no-repeat;
+}
+.nav{
+	p
+}

@@ -1,0 +1,242 @@
+/* For desktop: */
+.nav {
+    padding-right: 100px;
+    float: right;
+    margin-left: 50px;
+    font-size: 24px;
+    color: #3B4BAB;
+}
+
+.head-menu {
+    margin-left: 100px;
+}
+
+.home {
+    float: left;
+    color: #3B4BAB;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #3B4BAB;
+}
+
+.image-main-big {
+    width: 140%;
+    height: 200%;
+    padding-top: 155px;
+}
+
+.h1-text-teamwork {
+    padding-top: 155px;
+    font-size: 60px;
+    letter-spacing: 1px;
+    color: #3B4BAB;
+    font-family: "Lato";
+}
+
+.h5-text-content {
+    color: #345EBD;
+    font-family: "Lato";
+}
+
+.btt {
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #345EBD;
+    font-family: "Lato";
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    background-color: #8DEAF8;
+}
+
+#buttonStart {
+    padding-left: 30px;
+    float: left;
+    margin-right: 45px;
+}
+
+.icon {
+    float: left;
+    height: 10%;
+    width: 10%;
+}
+
+.icon-footer {
+    padding-top: 100px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #3B4BAB;
+}
+
+body {
+    background-image: url("D:/HTML_CSS/image/background1.png");
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+
+.navbar-inverse {
+    background-color: unset;
+    border: none;
+    /*color:#3B4BAB; */
+}
+.navbar>.container-fluid .navbar-brand {
+    margin-right: 13px;
+}
+@media screen and (max-width: 800px) {
+    .row {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .icon-footer {
+        padding-top: 100px;
+        margin-left: 180px;
+    }
+
+    #buttonLearnMore {
+        padding-left: 30px;
+        float: left;
+        /*margin-right: 140px;*/
+    }
+
+    .row a {
+        float: left;
+    }
+
+    div.h1-text-teamwork {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .row a {
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    a:not(:first-child) {
+        display: none;
+    }
+
+    .icon-child {
+        float: right;
+        display: block;
+    }
+
+    .h1-text-teamwork {
+        width: 100%;
+        text-align: center;
+        padding-top: 45px;
+        font-size: 47px;
+    }
+
+    .h5-text-content {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .image-main-big {
+        width: 80%;
+        margin-left: 64px;
+        padding-top: 100px;
+    }
+
+    .h5-text-content {
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    #buttonStart {
+        float: right;
+    }
+
+    #buttonLearnMore {
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .row.responsive {
+        position: relative;
+    }
+
+    .row.responsive .icon-child {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .row.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .h1-text-teamwork {
+        text-align: center;
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 200%;
+    }
+
+    #buttonStart {}
+
+    #buttonLearnMore {
+        margin-left: 30px;
+    }
+
+    .icon-footer {
+        padding-top: 75px;
+        margin-left: 127px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .h1-text-teamwork {
+        text-align: center;
+        margin-left: 48px;
+    }
+
+    .h5-text-content {
+        margin-left: 107px;
+        text-align: center;
+    }
+
+    #buttonStart {
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+
+    #buttonLearnMore {
+        margin-left: 94px;
+        margin-top: 17px;
+        padding-left: 10px;
+        width: 151px;
+    }
+
+    .image-main-big {
+        padding-top: 35px;
+        margin-left: 83px;
+    }
+
+    .icon-footer {
+        padding-top: 54px;
+        margin-left: 127px;
+    }
+    .head-menu{
+    	margin-left: 30px;
+    }
+    /*test git*/
+}
